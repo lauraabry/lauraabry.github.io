@@ -42,5 +42,5 @@ h1 {    text-align: left;
 img {border : 0; 
 	 }
 
-h2 { text-align: right;
+h2 { margin: right;
 	width: 300; }
