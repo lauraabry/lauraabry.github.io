@@ -35,14 +35,12 @@ time, mark, audio, video {
         } 
 
 h1 {    text-align: left;
-	font-family: 'Courier New' ; 
-		font-size: 60px; 
-	padding-bottom: 30px; 
+	padding-bottom: 10px; 
 	
 	 }
 
 img {border : 0; 
 	 }
 
-h2 { text-align: left;
+h2 { text-align: right;
 	width: 300; }
