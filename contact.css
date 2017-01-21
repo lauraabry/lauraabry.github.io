@@ -1,0 +1,32 @@
+ .boxinfos {
+ 	width: 800px;
+ 	height: 800px; 
+ 	background-color:#EFEFEF;
+ 	margin-left: 150px;
+ 	margin-top:100px;
+ 	padding: 20px 10px 10px 10px;
+ }
+
+.titreinfos
+{
+	font-size: 18px;
+}
+
+.infos{
+	font-size: 14px;
+}
+
+.croix {
+	float: right;
+	margin-top: -50px;
+}
+
+.croix, .titreinfos{
+	display: inline-block;
+}
+
+.mecontacter, .oumetrouver{
+	float: left;
+	
+	margin-left: 20px;
+}
