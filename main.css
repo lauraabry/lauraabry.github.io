@@ -1,4 +1,4 @@
- éhtml, body, div, span, applet, object, iframe,
+éhtml, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,25 +21,86 @@ time, mark, audio, video {
 
 
  body {
-	 width : 1000px;
+	 width : 1270px;
     font-family: 'Courier New';
     font-size: 13px;
     line-height: 1.231;
     color: #000000; 
     background-color: #f5f5f5; 
     display: inline-block; 
-     }
+ }
 
   header{ 
-        margin:30px 0 50px 80px; 
+        margin:50px 20px 50px 50px; 
         } 
 
-h1 {    text-align: center;
+h1 {    text-align: left;
 	
 	 }
 
-img {border : 0; 
+img {
+	border : 0; 
 	 }
 
-h2 { text-align: center;
- }
+h1, .Laura,a, .Quisuisje { 
+	display: inline-block;
+
+}
+
+.Quisuisje {
+	font-size: 14px;
+	float: right;
+}
+
+.Quisuisje:hover{
+	background-color: #f5f5f5;}
+
+h1 {
+	float: left;
+}
+
+p{
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+
+#Photographie {
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+#Print {
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+#Web {
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+
+.Titre {
+	font-size: 18px;
+	padding-left: 50px;
+
+}
+
+a{ float: right;
+margin-left: 10px;
+margin-right: 30px;
+margin-top: 10px;}
+
+.Projet1, .Projet2, .Projet3, .Projet4, 
+.Projet5, .Projet6, .Projet7, .Projet8, .Projet9, 
+.Projet10 { 
+margin-left: 20px;
+padding-left: 50px;
+}
+
+footer{ 
+background-color: #EFEFEF;
+width: 1270px;
+height: 50px;}
+
