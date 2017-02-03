@@ -1,0 +1,1089 @@
+éhtml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*
+                  ___                         ___           ___      
+                 /\  \         _____         /\__\         /|  |     
+    ___          \:\  \       /::\  \       /:/ _/_       |:|  |     
+   /\__\          \:\  \     /:/\:\  \     /:/ /\__\      |:|  |     
+  /:/__/      _____\:\  \   /:/  \:\__\   /:/ /:/ _/_   __|:|__|     
+ /::\  \     /::::::::\__\ /:/__/ \:|__| /:/_/:/ /\__\ /::::\__\_____
+ \/\:\  \__  \:\~~\~~\/__/ \:\  \ /:/  / \:\/:/ /:/  / ~~~~\::::/___/
+  ~~\:\/\__\  \:\  \        \:\  /:/  /   \::/_/:/  /      |:|~~|    
+     \::/  /   \:\  \        \:\/:/  /     \:\/:/  /       |:|  |    
+     /:/  /     \:\__\        \::/  /       \::/  /        |:|__|    
+     \/__/       \/__/         \/__/         \/__/         |/__/     */ 
+
+
+
+ body {
+	 width : 100%;
+	 height: 100%;
+    font-family: 'Courier New';
+    font-size: 13px;
+    line-height: 1.231;
+    background-color: #ffffff;  }
+  
+
+
+
+.headerindex{ 
+  	width: 100%;
+  	height: 20%;      
+background-color: white;
+margin-top: 1%;
+ }
+
+.headerindexvrai{ 
+  	width: 100%;
+  	height: 15%;      
+background-color:white;
+margin-top: 1%;
+position: fixed;
+ }
+
+.headercontact{ 
+  	width: 100%;
+  	height: 15%;      
+background-color:white;
+margin-top: 0%;
+margin-bottom: 1%;
+position: fixed;
+ }
+
+
+ .monlogo {
+ 	margin-left: 5%;
+ 	margin-bottom: 2%;
+ 	margin-top: 2%;
+ 	position: fixed;
+ }
+
+ .monlogoindex {
+ 	margin-left: 3%;
+ 	margin-bottom: 1%;
+ 	margin-top: 1%;
+ 	position: fixed;
+ }
+
+.monlogocontact {
+ 	margin-left: 2%;
+ 	margin-bottom: 1%;
+ 	margin-top: 1%;
+ 	position: fixed;
+ }
+
+
+.monlogo, .quisuisjetxt {
+	display: inline-block;
+}
+
+
+ .quisuisjetxtindex
+{ 
+	margin-left: 2%;
+margin-left: 87%;
+margin-top: 1%;
+
+width: 10%;
+color: black;
+position: fixed;
+font-size: 12px;
+font-family: Courier;} 
+
+.quisuisjetxtcontact 
+{ 
+	margin-left: 2%;
+margin-left: 87%;
+margin-top: 2%;
+
+width: 10%;
+color: black;
+position: fixed;
+font-size: 12px;
+font-family: Courier;}
+
+
+.quisuisjetxt 
+{ 
+	
+margin-left: 88%;
+margin-top: 2%;
+
+width: 10%;
+color: black;
+position: fixed;
+font-size: 12px;
+font-family: Courier;} 
+
+
+
+#Photographie {
+	
+	width: 65%;
+	margin-left: 35%;
+	margin-bottom: 1%;
+}
+
+#Print {
+	margin-top: 1%;
+	width: 65%;
+	margin-left: 35%;
+	margin-bottom: 1%;
+}
+
+#Numerique {
+	width: 65%;
+	margin-left: 35%;
+
+}
+
+
+.Titre {
+	font-size: 12px;
+	padding-left: 2%;
+
+}
+
+.alice-accueil, .timbres-accueil, .frise-accueil {
+	margin-top: 13%;
+}
+
+.transport-accueil, .trombi-accueil, .jpo-accueil, .FredTurner-accueil, 
+.alice-accueil, .timbres-accueil, .frise-accueil, .artbrut-accueil, .automate-accueil, 
+ { 
+margin-left: 1%;
+
+}
+
+
+.transport-accueil
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.transport-accueil:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);   
+
+
+}    
+       
+
+
+
+.trombi-accueil
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.trombi-accueil:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);       
+       
+}
+
+
+.FredTurner-accueil
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.FredTurner-accueil:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);       
+       
+}
+
+
+.jpo-accueil
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.jpo-accueil:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);       
+       
+}
+
+
+.maisonrouge-accueil
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.maisonrouge-accueil:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);       
+       
+}
+
+
+.maisonrouge-accueil
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.maisonrouge-accueil:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);       
+       
+}
+
+
+.timbres-accueil
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.timbres-accueil:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);       
+       
+}
+
+
+footer{ 
+	position: fixed;
+width: 100%; 
+height: 40%;
+
+}
+
+
+
+
+.anglaistxt { 
+font-size: 12px;
+font-family: Courier;
+color: black;
+float: right;
+margin-top: 1%;
+margin-right: 3%;
+position: fixed;
+margin-left: 94%;
+bottom: 6%;
+}
+	
+
+
+.sliding-u-l-r-l-inverse1 {
+    
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+.sliding-u-l-r-l-inverse1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 80%;
+    bottom: 4%;
+    height: 2px;
+    width: 15%;  
+    	
+    transition: width 0s ease;
+}
+
+.sliding-u-l-r-l-inverse1:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 4%;
+    height: 2px;
+    width: 15%;
+    background: black; 
+   
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse1:hover:before {
+    width: 0%;
+    background: black;
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse1:hover:after {
+    width: 0%;
+    background: transparent;
+    transition: width 0s ease;
+
+}
+
+
+
+
+
+.sliding-u-l-r-l-inverse2 {
+    
+    position: relative;
+    padding-top: 2px;
+
+}
+
+.sliding-u-l-r-l-inverse2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 2px;
+    width: 15%;  
+    	
+    transition: width 0s ease;
+}
+
+.sliding-u-l-r-l-inverse2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 85%;
+    top: 0;
+    height: 2px;
+    width: 15%;
+    background: black; 
+   
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse2:hover:before {
+    width: 0%;
+    background: black;
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse2:hover:after {
+    width: 0%;
+    background: transparent;
+    transition: width 0s ease;
+
+}
+
+
+
+
+
+
+
+.sliding-u-l-r-l-inverse3 {
+    
+    position: relative;
+    padding-bottom: 46px;
+
+}
+
+.sliding-u-l-r-l-inverse3:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    height: 2px;
+    width: 15%;  
+      
+    transition: width 0s ease;
+}
+
+.sliding-u-l-r-l-inverse3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    height: 2px;
+    width: 15%;
+    background: black; 
+   
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse3:hover:before {
+    width: 0%;
+    background: black;
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse3:hover:after {
+    width: 0%;
+    background: transparent;
+    transition: width 0s ease;
+
+}
+
+
+
+
+
+.sliding-u-l-r-l-inverse4 {
+    
+    position: relative;
+    padding-top: 2px;
+
+}
+
+.sliding-u-l-r-l-inverse4:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 2px;
+    width: 15%;  
+      
+    transition: width 0s ease;
+}
+
+.sliding-u-l-r-l-inverse4:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 85%;
+    top: -0%;
+    height: 2px;
+    width: 15%;
+    background: black; 
+   
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse4:hover:before {
+    width: 0%;
+    background: black;
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l-inverse4:hover:after {
+    width: 0%;
+    background: transparent;
+    transition: width 0s ease;
+
+}
+
+
+/*
+ ____                    __                    __      
+/\  _`\                 /\ \__                /\ \__   
+\ \ \/\_\    ___     ___\ \ ,_\    __      ___\ \ ,_\  
+ \ \ \/_/_  / __`\ /' _ `\ \ \/  /'__`\   /'___\ \ \/  
+  \ \ \L\ \/\ \L\ \/\ \/\ \ \ \_/\ \L\.\_/\ \__/\ \ \_ 
+   \ \____/\ \____/\ \_\ \_\ \__\ \__/.\_\ \____\\ \__\
+    \/___/  \/___/  \/_/\/_/\/__/\/__/\/_/\/____/ \/__/ */ 
+
+
+#Containercontact { 
+
+width: 100%;
+height: 100%;
+margin-top: 0%;}
+
+
+ .boxinfos {
+ 	width: 69%;
+ 	height: 35%; 
+ 	background-color: black;
+ 	margin-top: 1%;
+ 	padding: 10% 3% 2% 3%;
+ 	margin-left: 14%;
+ 
+ }
+
+ .boxutile {
+ 	width: 40%;
+ 	height: 40%; 
+ 	background-color: white;
+ 	padding: 2% 2% 2% 2%;
+ 	float: right;
+ 	margin-bottom: 1%;
+ 	margin-top: -29%;
+ }
+
+.titreinfos
+{
+	font-size: 15px;
+	color: #ffffff;
+
+}
+
+.infos{
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.titreinfos2
+{
+	font-size: 15px;
+	color: #000000;
+}
+
+.infos2{
+	font-size: 12px;
+	color: #000000;
+}
+
+
+.mescompetences {
+	width: 30%;
+	height: 30%;
+	background-color: black;
+
+}
+	
+
+ .boxutile,  .mescompetences
+{display: inline-block;}
+
+
+.croix {
+	float: right;
+	margin-top: -3%;
+	width: 2%;
+	height: 2%;
+	
+}
+
+.croix:hover{
+	width: 3%;
+	height: 3%;
+}
+
+
+
+.mecontacter
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+
+.mecontacter:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+
+      }
+
+.oumetrouver
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+
+.oumetrouver:hover
+{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+
+ }
+
+/* 
+ ______                                                     __      
+/\__  _\                                                   /\ \__   
+\/_/\ \/ _ __    __      ___     ____  _____     ___   _ __\ \ ,_\  
+   \ \ \/\`'__\/'__`\  /' _ `\  /',__\/\ '__`\  / __`\/\`'__\ \ \/  
+    \ \ \ \ \//\ \L\.\_/\ \/\ \/\__, `\ \ \L\ \/\ \L\ \ \ \/ \ \ \_ 
+     \ \_\ \_\\ \__/.\_\ \_\ \_\/\____/\ \ ,__/\ \____/\ \_\  \ \__\
+      \/_/\/_/ \/__/\/_/\/_/\/_/\/___/  \ \ \/  \/___/  \/_/   \/__/
+                                         \ \_\                      
+                                          \/_/                       */ 
+
+
+#conteneurtransport {
+	width: 100%;
+	height: 100%;
+	;
+}
+
+nav {
+	margin-top: 13%;
+	padding-left: 1%; 
+	width: 15%;
+position: fixed;
+	text-align:  center;
+
+
+}
+
+
+h1{ font-size: 15px;
+	margin: center;
+	background-color: white;
+	margin-top: 6%;
+
+}
+
+h2{ font-size: 12px;
+margin-left: 20%;
+margin-top: 11%;
+
+
+}
+
+hr {
+	width: 55%;
+	
+}
+ 
+
+li {
+	list-style-type: none;
+	
+}
+
+a {
+	font-size: 11px;	
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+nav, .quelquespiedstxt
+{ display: inline-block;
+}
+
+.quelquespiedstxt {
+	width: 85%;
+	height: 5%;
+	margin-top: 0%;
+	margin-left: 20%;
+	position: fixed;
+	background-color: white;
+
+}
+
+#articletransport {
+	width: 85%;
+	height: 85%;
+	margin-top: 0%;
+	margin-left: 20%;
+}
+
+.transport1,.transport2,.transport3,.transport6 {
+	width: 70%;
+	height: 30%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	
+
+}
+
+.transport4,.transport5 {
+	width: 70%;
+	height: 30%;
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 1%;
+
+
+}
+
+
+/* 
+ ______                         __             
+/\__  _\                       /\ \      __    
+\/_/\ \/ _ __   ___     ___ ___\ \ \____/\_\   
+   \ \ \/\`'__\/ __`\ /' __` __`\ \ '__`\/\ \  
+    \ \ \ \ \//\ \L\ \/\ \/\ \/\ \ \ \L\ \ \ \ 
+     \ \_\ \_\\ \____/\ \_\ \_\ \_\ \_,__/\ \_\
+      \/_/\/_/ \/___/  \/_/\/_/\/_/\/___/  \/_/
+                                                */ 
+
+#conteneurfoule { 
+width: 100%;
+height:100%;}
+
+.Anjali, .Anjali2{
+	display: inline-block;
+}
+
+.Black, .Black2{
+	display: inline-block;
+}
+
+.Jules, .Jules2{
+	display: inline-block;
+}
+
+.Bleu, .Bleu2{
+	display: inline-block;
+}
+
+.Dis, .Dis2{
+	display: inline-block;
+}
+
+.Anjali, .Anjali2, .Black, .Black2, 
+.Jules, .Jules2, .Bleu, .Bleu2, .Dis, .Dis2{
+	width: 30%;
+	height: 30%;
+	margin-bottom: 1%;
+
+}
+
+.Anjali, .Black, .Jules, .Bleu, .Dis{
+	margin-left: 20%;  }
+
+.Anjali, .Anjali2{
+	margin-top: 3%;
+}
+	
+.Dis, .Dis2 {
+	margin-bottom: 3%;
+}	
+
+/* ____              __             ___                       
+/\  _`\           /\ \__         /\_ \                      
+\ \ \/\_\     __  \ \ ,_\    __  \//\ \     ___      __     
+ \ \ \/_/_  /'__`\ \ \ \/  /'__`\  \ \ \   / __`\  /'_ `\   
+  \ \ \L\ \/\ \L\.\_\ \ \_/\ \L\.\_ \_\ \_/\ \L\ \/\ \L\ \  
+   \ \____/\ \__/.\_\\ \__\ \__/.\_\/\____\ \____/\ \____ \ 
+    \/___/  \/__/\/_/ \/__/\/__/\/_/\/____/\/___/  \/___L\ \
+                                                     /\____/
+                                                     \_/__/  */ 
+
+#conteneurcatalog { 
+width: 100%;
+height:100%;}
+
+.page1, .page2, .page3, .page4, 
+.page5, .page6, .page7
+{ 
+width: 60%; 
+height: 30%;
+margin-bottom: 2%;
+margin-left: 20%;}
+
+.page1{ 
+margin-top: 3%;}
+
+
+
+/* 
+                   __                   _____  ____    _____      
+ /'\_/`\          /\ \                 /\___ \/\  _`\ /\  __`\    
+/\      \     __  \ \ \/'\      __     \/__/\ \ \ \L\ \ \ \/\ \   
+\ \ \__\ \  /'__`\ \ \ , <    /'__`\      _\ \ \ \ ,__/\ \ \ \ \  
+ \ \ \_/\ \/\ \L\.\_\ \ \\`\ /\  __/     /\ \_\ \ \ \/  \ \ \_\ \ 
+  \ \_\\ \_\ \__/.\_\\ \_\ \_\ \____\    \ \____/\ \_\   \ \_____\
+   \/_/ \/_/\/__/\/_/ \/_/\/_/\/____/     \/___/  \/_/    \/_____/
+                                                                   */ 
+
+
+
+#conteneurjpo { 
+width: 100%;
+height:100%;}
+
+.jpomake{ 
+	width: 35%;
+	height: 30%;
+
+	margin-top: 3%;
+	margin-bottom: 3%;
+margin-left: 20%;
+	
+}
+
+iframe {
+	margin-top: 2%;
+	margin-left: 20%;
+}
+
+.jpomake, iframe{
+	display: block;
+
+}
+
+
+/*
+ ______           __                                 __             
+/\  _  \         /\ \__                             /\ \__          
+\ \ \L\ \  __  __\ \ ,_\   ___     ___ ___      __  \ \ ,_\    __   
+ \ \  __ \/\ \/\ \\ \ \/  / __`\ /' __` __`\  /'__`\ \ \ \/  /'__`\ 
+  \ \ \/\ \ \ \_\ \\ \ \_/\ \L\ \/\ \/\ \/\ \/\ \L\.\_\ \ \_/\  __/ 
+   \ \_\ \_\ \____/ \ \__\ \____/\ \_\ \_\ \_\ \__/.\_\\ \__\ \____\
+    \/_/\/_/\/___/   \/__/\/___/  \/_/\/_/\/_/\/__/\/_/ \/__/\/____/
+                                                                    
+                                                                     */ 
+
+#conteneurautomate { 
+width: 100%;
+height:100%;}
+
+
+.auto1, .auto2, .auto3, .auto4, .auto5, .auto6 {
+	width: 65%;
+	height: 5%;
+	margin-left: 20%;
+	margin-bottom: 1%;
+	  }
+	
+	.auto6
+{ margin-bottom: 3%;}
+
+.auto1{ 
+margin-top: 3%;}
+
+
+
+
+/* 
+ ______   ___                         
+/\  _  \ /\_ \    __                  
+\ \ \L\ \\//\ \  /\_\    ___     __   
+ \ \  __ \ \ \ \ \/\ \  /'___\ /'__`\ 
+  \ \ \/\ \ \_\ \_\ \ \/\ \__//\  __/ 
+   \ \_\ \_\/\____\\ \_\ \____\ \____\
+    \/_/\/_/\/____/ \/_/\/____/\/____/
+                                      */ 
+                                      
+
+#conteneuralice { 
+width: 100%;
+height:100%;
+}
+
+
+
+.alice00
+{ 
+width: 45%;
+height: 20%;
+margin-top: 3%;
+}
+
+.alice0
+{ 
+width: 25%;
+height: 20%;
+margin-left: 20%;
+margin-top: 3%;}
+
+.alice0, .alice00 {
+	display: inline-block;
+}
+
+
+
+.alice1, .alice3, .alice2, .alice4,
+.alice5, .alice6, .alice7, .alice8{
+	width: 65%;
+	height:30%;
+	margin-bottom: 4%;
+margin-left: 18%;}
+
+ 
+
+
+
+
+/*
+ ______                __                            
+/\__  _\__            /\ \                           
+\/_/\ \/\_\    ___ ___\ \ \____  _ __    __    ____  
+   \ \ \/\ \ /' __` __`\ \ '__`\/\`'__\/'__`\ /',__\ 
+    \ \ \ \ \/\ \/\ \/\ \ \ \L\ \ \ \//\  __//\__, `\
+     \ \_\ \_\ \_\ \_\ \_\ \_,__/\ \_\\ \____\/\____/
+      \/_/\/_/\/_/\/_/\/_/\/___/  \/_/ \/____/\/___/ */
+
+
+#conteneurtimbre { 
+width: 100%;
+height:100%;}
+
+.petittruffaut, .timbre1 {
+display: inline-block;
+margin-top: 2%;
+
+}
+
+
+.petitleaud, .timbre2{ 
+	display: inline-block;
+
+
+}
+
+.petitleaud, .petittruffaut{ 
+	width: 28%;
+	height: 15%;
+
+}
+
+.timbre1, .timbre2{ 
+	width: 30%;
+	height: 25%;
+
+}
+
+.petittruffaut{ 
+margin-left: 20%;
+margin-bottom: 3%;}
+
+.petitleaud{ 
+margin-left: 20%;
+margin-bottom: 3%;}
+
+.timbre1{ 
+margin-top: 2%;
+margin-bottom: 3%;}
+
+.timbre2{ 
+
+margin-bottom: 3%;}
+
+
+
+/*
+ ______         __        __                      __      
+/\  _  \       /\ \__    /\ \                    /\ \__   
+\ \ \L\ \  _ __\ \ ,_\   \ \ \____  _ __   __  __\ \ ,_\  
+ \ \  __ \/\`'__\ \ \/    \ \ '__`\/\`'__\/\ \/\ \\ \ \/  
+  \ \ \/\ \ \ \/ \ \ \_    \ \ \L\ \ \ \/ \ \ \_\ \\ \ \_ 
+   \ \_\ \_\ \_\  \ \__\    \ \_,__/\ \_\  \ \____/ \ \__\
+    \/_/\/_/\/_/   \/__/     \/___/  \/_/   \/___/   \/__/
+                                                           */
+                                                          
+
+
+
+.application {
+	width: 60%;
+	height: 30%;
+	margin-left: 19%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+
+#conteneurartbrut { 
+width: 100%;
+height:100%;}
+
+
+/*
+ ____                               
+/\  _`\        __                   
+\ \ \L\_\_ __ /\_\    ____     __   
+ \ \  _\/\`'__\/\ \  /',__\  /'__`\ 
+  \ \ \/\ \ \/ \ \ \/\__, `\/\  __/ 
+   \ \_\ \ \_\  \ \_\/\____/\ \____\
+    \/_/  \/_/   \/_/\/___/  \/____/  */ 
+                                    
+                                    
+#conteneurartbrut { 
+width: 100%;
+height:100%;} 
+
+.friseblanche1, .friseblanche2, .friseblanche3 { 
+width : 60%;
+height: 10%;
+margin-left: 20%;
+margin-top: 2%; }
+
+.frisenoir1, .frisenoir2, .frisenoir3 { 
+width : 60%;
+height: 10%; 
+margin-left: 20%;}
+
+.frisenoir1 {
+	margin-top: 3%;
+}
+
+.friseblanche3 { 
+margin-bottom: 3%;}
+
+
+
+
+
+
+
+
+
+
+
