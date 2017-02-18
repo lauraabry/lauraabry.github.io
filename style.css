@@ -99,7 +99,7 @@ position: fixed;
     position: fixed;
  }
 
-
+/*
 .monlogo, .monlogoindex, .monlogocontact, 
 .monlogocontactenglish:hover,
 .monlogo, .monlogoindex, .monlogocontact, 
@@ -111,7 +111,7 @@ position: fixed;
         -o-filter: grayscale(1.2);
         -ms-filter: grayscale(1.2);
      
-}
+} */
 
 
 .monlogo, .quisuisjetxtindex {
@@ -619,15 +619,15 @@ text-decoration: underline;}
 .croix {
 margin-left: 80%;
 	margin-top:0%;
-	width: 1%;
-	height: 1%;
+	width: 2%;
+	height: 2%;
 
 	
 }
 
 .croix:hover{
-	width: 2%;
-	height: 2%;
+	width: 3%;
+	height: 3%;
 }
 
 
