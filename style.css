@@ -50,6 +50,7 @@ time, mark, audio, video {
   	height: 20%;      
 background-color: white;
 margin-top: 1%;
+position: fixed;
  }
 
 .headerindexvrai{ 
@@ -71,8 +72,8 @@ position: fixed;
 
 
  .monlogo {
- 	margin-left: 5%;
- 	margin-bottom: 2%;
+ 	margin-left: 3%;
+ 	margin-bottom: 1%;
  	margin-top: 2%;
  	position: fixed;
  }
@@ -85,14 +86,30 @@ position: fixed;
  }
 
 .monlogocontact {
- 	margin-left: 2%;
+ 	margin-left: 3%;
  	margin-bottom: 1%;
- 	margin-top: 1%;
+ 	margin-top: 2%;
  	position: fixed;
  }
 
+ .monlogocontactenglish {
+    margin-left: 3%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    position: fixed;
+ }
 
-.monlogo, .quisuisjetxt {
+
+.monlogo, .monlogoindex, .monlogocontact, 
+.monlogocontactenglish:hover,
+.monlogo, .monlogoindex, .monlogocontact, 
+.monlogocontactenglish:focus {
+    transform: scale(1.2);
+    box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+
+
+.monlogo, .quisuisjetxtindex {
 	display: inline-block;
 }
 
@@ -100,39 +117,19 @@ position: fixed;
  .quisuisjetxtindex
 { 
 	margin-left: 2%;
-margin-left: 87%;
+margin-left: 89%;
 margin-top: 1%;
 
 width: 10%;
 color: black;
 position: fixed;
-font-size: 12px;
+font-size: 13px;
 font-family: Courier;} 
 
-.quisuisjetxtcontact 
-{ 
-	margin-left: 2%;
-margin-left: 87%;
-margin-top: 2%;
-
-width: 10%;
-color: black;
-position: fixed;
-font-size: 12px;
-font-family: Courier;}
 
 
-.quisuisjetxt 
-{ 
-	
-margin-left: 88%;
-margin-top: 2%;
 
-width: 10%;
-color: black;
-position: fixed;
-font-size: 12px;
-font-family: Courier;} 
+
 
 
 
@@ -147,7 +144,7 @@ font-family: Courier;}
 	margin-top: 1%;
 	width: 65%;
 	margin-left: 35%;
-	margin-bottom: 1%;
+	margin-bottom: 0%;
 }
 
 #Numerique {
@@ -158,13 +155,13 @@ font-family: Courier;}
 
 
 .Titre {
-	font-size: 12px;
+	font-size: 13px;
 	padding-left: 2%;
 
 }
 
 .alice-accueil, .timbres-accueil, .frise-accueil {
-	margin-top: 13%;
+	margin-top: 14%;
 }
 
 .transport-accueil, .trombi-accueil, .jpo-accueil, .FredTurner-accueil, 
@@ -321,15 +318,16 @@ height: 40%;
 
 
 
+
 .anglaistxt { 
-font-size: 12px;
+font-size: 13px;
 font-family: Courier;
 color: black;
 float: right;
 margin-top: 1%;
 margin-right: 3%;
 position: fixed;
-margin-left: 94%;
+margin-left: 91%;
 bottom: 6%;
 }
 	
@@ -487,7 +485,7 @@ bottom: 6%;
 .sliding-u-l-r-l-inverse4 {
     
     position: relative;
-    padding-top: 2px;
+    padding-top: 8px;
 
 }
 
@@ -540,44 +538,54 @@ bottom: 6%;
     \/___/  \/___/  \/_/\/_/\/__/\/__/\/_/\/____/ \/__/ */ 
 
 
+
 #Containercontact { 
 
 width: 100%;
 height: 100%;
-margin-top: 0%;}
+margin-top: 0%;
+background-color: white;}
+
+
 
 
  .boxinfos {
  	width: 69%;
  	height: 35%; 
- 	background-color: black;
+ 	background-color: #ffffff;
  	margin-top: 1%;
  	padding: 10% 3% 2% 3%;
  	margin-left: 14%;
  
  }
 
+
  .boxutile {
- 	width: 40%;
- 	height: 40%; 
- 	background-color: white;
+ 	width: 60%;
+ 	height: 60%; 
+ 	background-color: #efefef;
  	padding: 2% 2% 2% 2%;
  	float: right;
- 	margin-bottom: 1%;
- 	margin-top: -29%;
+ 	margin-bottom: 10%;
+ 	margin-top: -27%;
  }
+
+ 
 
 .titreinfos
 {
 	font-size: 15px;
-	color: #ffffff;
+	color: #000000;
 
 }
 
 .infos{
-	font-size: 12px;
-	color: #ffffff;
+	font-size: 13px;
+	color: #000000;
 }
+
+.txtcouleur { 
+text-decoration: underline;}
 
 .titreinfos2
 {
@@ -586,7 +594,7 @@ margin-top: 0%;}
 }
 
 .infos2{
-	font-size: 12px;
+	font-size: 13px;
 	color: #000000;
 }
 
@@ -604,10 +612,11 @@ margin-top: 0%;}
 
 
 .croix {
-	float: right;
-	margin-top: -3%;
+margin-left: 93%;
+	margin-top: 1%;
 	width: 2%;
 	height: 2%;
+
 	
 }
 
@@ -674,45 +683,44 @@ margin-top: 0%;}
 	;
 }
 
-nav {
-	margin-top: 13%;
-	padding-left: 1%; 
-	width: 15%;
-position: fixed;
-	text-align:  center;
-
-
-}
 
 
 h1{ font-size: 15px;
 	margin: center;
 	background-color: white;
-	margin-top: 6%;
+	margin-top: 7%;
 
 }
 
-h2{ font-size: 12px;
+
+/* ANGLAIS */
+h2{ font-size: 13px;
 margin-left: 20%;
 margin-top: 11%;
 
+}
+
+/* FRANCAIS */
+h3{ font-size: 13px;
+margin-left: 20%;
+margin-top: 3%;
 
 }
 
 hr {
-	width: 55%;
+	width: 60%;
+    margin-top: 8%;
+    background-color: black;
+    margin-left: 20%;
+   
 	
 }
  
 
-li {
-	list-style-type: none;
-	
-}
 
 a {
-	font-size: 11px;	
-	text-decoration: none;
+	font-size: 13px;	
+	text-decoration: underline;
 	color: black;
 }
 
@@ -954,7 +962,7 @@ margin-top: 3%;}
 	width: 65%;
 	height:30%;
 	margin-bottom: 4%;
-margin-left: 18%;}
+margin-left: 20%;}
 
  
 
@@ -1034,7 +1042,7 @@ margin-bottom: 3%;}
 .application {
 	width: 60%;
 	height: 30%;
-	margin-left: 19%;
+	margin-left: 20%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
