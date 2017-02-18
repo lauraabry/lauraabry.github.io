@@ -630,7 +630,19 @@ margin-left: 80%;
 	height: 3%;
 }
 
+.croixprojet {
+margin-left: 80%;
+    margin-top:1%;
+    width: 2%;
+    height: 2%;
 
+    
+}
+
+.croixprojet:hover{
+    width: 3%;
+    height: 3%;
+}
 
 
 .mecontacter
