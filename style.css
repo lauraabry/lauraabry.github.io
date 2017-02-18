@@ -105,7 +105,12 @@ position: fixed;
 .monlogo, .monlogoindex, .monlogocontact, 
 .monlogocontactenglish:focus {
     transform: scale(1.2);
-    box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+
+        -webkit-filter: grayscale(1.2);
+        -moz-filter: grayscale(1.2);
+        -o-filter: grayscale(1.2);
+        -ms-filter: grayscale(1.2);
+     
 }
 
 
