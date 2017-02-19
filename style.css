@@ -65,7 +65,7 @@ position: fixed;
   	width: 100%;
   	height: 15%;      
 background-color:white;
-margin-top: 0%;
+margin-top: -1%;
 margin-bottom: 1%;
 position: fixed;
  }
@@ -618,9 +618,10 @@ text-decoration: underline;}
 
 .croix {
 margin-left: 80%;
-	margin-top:0%;
+	margin-top:-7%;
 	width: 2%;
 	height: 2%;
+
 
 	
 }
@@ -940,7 +941,8 @@ iframe {
 
 #conteneurautomate { 
 width: 100%;
-height:100%;}
+height:100%;
+margin-top: 0%;}
 
 
 .auto1, .auto2, .auto3, .auto4, .auto5, .auto6 {
