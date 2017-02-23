@@ -385,94 +385,6 @@ footer{
 
 
 
-.sliding-u-l-r-l-inverse3 {
-    position: relative;
-    padding-bottom: 46px;
-
-}
-
-.sliding-u-l-r-l-inverse3:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 80%;
-    bottom: 0;
-    height: 2px;
-    width: 15%;  
-    transition: width 0s ease;
-}
-
-.sliding-u-l-r-l-inverse3:after {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 20%;
-    height: 2px;
-    width: 15%;
-    background: black; 
-    transition: width .5s ease;
-}
-
-.sliding-u-l-r-l-inverse3:hover:before {
-    width: 0%;
-    background: black;
-    transition: width .5s ease;
-}
-
-.sliding-u-l-r-l-inverse3:hover:after {
-    width: 0%;
-    background: transparent;
-    transition: width 0s ease;
-
-}
-
-
-
-
-
-.sliding-u-l-r-l-inverse4 {
-    position: relative;
-    padding-top: 7px;
-
-}
-
-.sliding-u-l-r-l-inverse4:before {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 2px;
-    width: 15%;  
-    transition: width 0s ease;
-}
-
-.sliding-u-l-r-l-inverse4:after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 85%;
-    top: -0%;
-    height: 2px;
-    width: 15%;
-    background: black; 
-    transition: width .5s ease;
-}
-
-.sliding-u-l-r-l-inverse4:hover:before {
-    width: 0%;
-    background: black;
-    transition: width .5s ease;
-}
-
-.sliding-u-l-r-l-inverse4:hover:after {
-    width: 0%;
-    background: transparent;
-    transition: width 0s ease;
-}
-
-
 /*
  ____                    __                    __      
 /\  _`\                 /\ \__                /\ \__   
@@ -629,6 +541,8 @@ margin-left: 80%;
 #conteneurtransport {
 	width: 100%;
 	height: 100%;
+
+ 
 	}
 
 
@@ -645,7 +559,7 @@ h1{
 h2{ 
     font-size: 13px;
     margin-left: 20%;
-    margin-top: 11%;
+    margin-top: 3%;
 }
 
 /* FRANCAIS */
@@ -914,7 +828,7 @@ iframe {
 .alice0{ 
     width: 25%;
     height: 20%;
-    margin-left: 20%;
+    margin-left: 19%;
     margin-top: 3%;
 }
 
@@ -1010,7 +924,7 @@ iframe {
 .application {
 	width: 60%;
 	height: 30%;
-	margin-left: 20%;
+	margin-left: 18%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
