@@ -412,9 +412,6 @@ footer{
     background-color: white;
 }
 
-
-
-
  .boxinfos {
  	width: 69%;
  	height: 35%; 
@@ -477,30 +474,35 @@ text-decoration: underline;
 .croix {
     margin-left: 80%;
 	margin-top:-7%;
-	width: 2%;
-	height: 2%;
+	width: 1.5%;
+	height: 1.5%;
+    transform-origin: 50% 50%;
+    transition : all 1s ease;
+
 }
 
 
-
-
 .croix:hover{
-	width: 2,5%;
-	height: 2,5%;
+	width: 2%;
+	height: 2%;
+    transform: rotate(90deg);
 }
 
 
 .croixprojet{
 margin-left: 80%;
     margin-top:1%;
-    width: 2%;
-    height: 2%;
+    width: 1.5%;
+    height: 1.5%;
+    transform-origin: 50% 50%;
+    transition : all 1s ease;
 }
 
 
 .croixprojet:hover{
-    width: 2,5%;
-    height: 2,5%;  
+    width: 2%;
+    height: 2%;  
+    transform: rotate(90deg);
 }
 
 
